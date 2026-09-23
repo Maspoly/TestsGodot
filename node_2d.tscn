@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://lt25mri2cvvh" path="res://icon.svg" id="2_epypp"]
 [ext_resource type="PackedScene" uid="uid://h2g8ch1xdy1l" path="res://oioioio.tscn" id="3_0hol4"]
 [ext_resource type="Script" uid="uid://br5w3ybci1dya" path="res://oioioio.gd" id="4_q6r6c"]
+[ext_resource type="Script" uid="uid://dimya5qf407ol" path="res://lkaje.gd" id="6_kdubu"]
 
 [node name="Node2D" type="Node2D" unique_id=1549883522]
 script = ExtResource("1_wtcfe")
@@ -19,6 +20,7 @@ script = ExtResource("4_q6r6c")
 [node name="Icon" type="Sprite2D" parent="." unique_id=771204576]
 position = Vector2(79, 98)
 texture = ExtResource("2_epypp")
+script = ExtResource("6_kdubu")
 
 [node name="Icon2" type="Sprite2D" parent="." unique_id=687288276]
 position = Vector2(275, 103)
