@@ -1,3 +1,17 @@
 [gd_scene format=3 uid="uid://bnj5pyv4j4pph"]
 
+[ext_resource type="Texture2D" uid="uid://lt25mri2cvvh" path="res://icon.svg" id="1_hdxlk"]
+
 [node name="Ouawe" type="Node2D" unique_id=1043648868]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=154001535]
+position = Vector2(222, 201)
+texture = ExtResource("1_hdxlk")
+
+[node name="Icon2" type="Sprite2D" parent="." unique_id=822367374]
+position = Vector2(392, 409)
+texture = ExtResource("1_hdxlk")
+
+[node name="Icon3" type="Sprite2D" parent="." unique_id=1829808798]
+position = Vector2(715, 243)
+texture = ExtResource("1_hdxlk")
